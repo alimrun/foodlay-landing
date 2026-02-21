@@ -338,6 +338,8 @@ a {
 .comes-with { background: var(--surface); border: 1px solid rgba(100,116,139,.2); border-radius: 16px; padding: 16px; position: relative; }
 .comes-with::after { content: ""; position: absolute; inset: -1px; border-radius: 16px; border: 1px solid transparent; background: linear-gradient(#0000,#0000) padding-box, radial-gradient(800px 300px at 110% -120px, rgba(14,165,233,.18), transparent) border-box; opacity: .4; pointer-events: none; }
 .explore { background: var(--surface); border: 1px solid rgba(100, 116, 139, .2); border-radius: 16px; padding: 16px; }
+.explore .card { padding-top: 20px; }
+.explore .card .badge { margin-top: 2px; margin-bottom: 12px; }
 .explore .card { border-color: rgba(100,116,139,.22); }
 .explore .card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background-image: linear-gradient(135deg, #0ea5e9, #22d3ee, #38bdf8); opacity: .75; }
 .explore .card:hover::before { opacity: 1; }
